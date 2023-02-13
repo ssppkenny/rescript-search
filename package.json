@@ -1,0 +1,37 @@
+{
+  "name": "rescript-project-template",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "res:build": "rescript",
+    "res:clean": "rescript clean",
+    "res:dev": "rescript build -w"
+  },
+  "keywords": [
+    "rescript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@rescript/react": "^0.10.3",
+    "bs-fetch": "^0.6.2",
+    "react": "^18.2.0",
+    "react-scripts": "^5.0.1",
+    "rescript": "^10.1.2",
+    "rescript-react-fetch": "^0.1.0",
+    "rescript-webapi": "^0.7.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
